@@ -1,20 +1,21 @@
 {
-  "name": "foreman",
-  "version": "0.0.25",
+  "name": "helmer",
+  "version": "0.0.1",
   "homepage": "http://nodefly.github.com/node-foreman/",
   "description": "Node Implementation of Foreman",
   "main": "index.js",
   "author": "Jacob Groundwater",
+  "contributors": ["Fredrick Galoso"],
   "license": "BSD",
   "keywords": [
-    "foreman",
+    "helmer",
     "upstart",
     "commandline",
     "env",
 	"Procfile"
   ],
   "bin": {
-    "nf": "nf.js"
+    "helmer": "helmer.js"
   },
   "dependencies": {
     "colors": "latest",
@@ -24,11 +25,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeFly/node-foreman.git"
+    "url": "https://github.com/wayoutmind/helmer.git"
   },
   "bugs": {
-    "url": "https://github.com/NodeFly/node-foreman/issues",
-    "email": "jacob@nodefly.com"
+    "url": "https://github.com/wayoutmind/helmer/issues",
+    "email": "fredrickgaloso@gmail.com"
   },
   "engines": {
     "node": ">=0.6.9"
