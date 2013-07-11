@@ -19,19 +19,6 @@ All of Foremans version dependencies have been set to use `latest`.
 If however you find a dependency should break it is possible to find out which dependency versions were last working with Foreman.
 The `npm-shrinkwrap.json` file is updated each time Foreman is published to npm.
 
-### How to Contribute
-
-I encourage anyone and everyone to help.
-If you have a specific change in mind, open an issue; we can talk about it there.
-
-If you would like to make a code change, go ahead. 
-Fork the repository, open a pull request. 
-Do this early, and talk about the change you want to make. 
-Maybe we can work together on it.
-
-Refactor Refactor Refactor!
-You are free to add features, or just help clean things up.
-
 ## Usage
 
 Node Foreman can be run with as little as `helmer start`, as long as `npm start` has been defined.
